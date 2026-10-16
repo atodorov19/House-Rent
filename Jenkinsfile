@@ -5,7 +5,7 @@ pipeline{
         stage("Restore the project"){
             step{
                 bat "dotnet restore"
-            {
+             {
         }
         stage("Build the project"){
                 step{
